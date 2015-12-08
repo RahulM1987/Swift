@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1802E8CA1C173266006CDC38 /* SlidPick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1802E8C81C173266006CDC38 /* SlidPick.swift */; settings = {ASSET_TAGS = (); }; };
+		1802E8CB1C173266006CDC38 /* SlidPick.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1802E8C91C173266006CDC38 /* SlidPick.xib */; settings = {ASSET_TAGS = (); }; };
 		18F570001C135898002552E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F56FFF1C135898002552E6 /* AppDelegate.swift */; };
 		18F570021C135898002552E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F570011C135898002552E6 /* ViewController.swift */; };
 		18F570051C135898002552E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F570031C135898002552E6 /* Main.storyboard */; };
@@ -14,6 +16,8 @@
 		18F5700A1C135898002552E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F570081C135898002552E6 /* LaunchScreen.storyboard */; };
 		18F570151C135898002552E6 /* Swift2TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F570141C135898002552E6 /* Swift2TestTests.swift */; };
 		18F570201C135898002552E6 /* Swift2TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F5701F1C135898002552E6 /* Swift2TestUITests.swift */; };
+		18F5702F1C1359A3002552E6 /* TablesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F5702D1C1359A3002552E6 /* TablesViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		18F570301C1359A3002552E6 /* TablesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18F5702E1C1359A3002552E6 /* TablesViewController.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1802E8C81C173266006CDC38 /* SlidPick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlidPick.swift; sourceTree = "<group>"; };
+		1802E8C91C173266006CDC38 /* SlidPick.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SlidPick.xib; sourceTree = "<group>"; };
 		18F56FFC1C135898002552E6 /* Swift2Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift2Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F56FFF1C135898002552E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18F570011C135898002552E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,8 @@
 		18F5701B1C135898002552E6 /* Swift2TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swift2TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F5701F1C135898002552E6 /* Swift2TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift2TestUITests.swift; sourceTree = "<group>"; };
 		18F570211C135898002552E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F5702D1C1359A3002552E6 /* TablesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TablesViewController.swift; sourceTree = "<group>"; };
+		18F5702E1C1359A3002552E6 /* TablesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TablesViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +108,10 @@
 				18F56FFF1C135898002552E6 /* AppDelegate.swift */,
 				18F570011C135898002552E6 /* ViewController.swift */,
 				18F570031C135898002552E6 /* Main.storyboard */,
+				18F5702D1C1359A3002552E6 /* TablesViewController.swift */,
+				18F5702E1C1359A3002552E6 /* TablesViewController.xib */,
+				1802E8C81C173266006CDC38 /* SlidPick.swift */,
+				1802E8C91C173266006CDC38 /* SlidPick.xib */,
 				18F570061C135898002552E6 /* Assets.xcassets */,
 				18F570081C135898002552E6 /* LaunchScreen.storyboard */,
 				18F5700B1C135898002552E6 /* Info.plist */,
@@ -230,7 +242,9 @@
 			files = (
 				18F5700A1C135898002552E6 /* LaunchScreen.storyboard in Resources */,
 				18F570071C135898002552E6 /* Assets.xcassets in Resources */,
+				1802E8CB1C173266006CDC38 /* SlidPick.xib in Resources */,
 				18F570051C135898002552E6 /* Main.storyboard in Resources */,
+				18F570301C1359A3002552E6 /* TablesViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +269,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1802E8CA1C173266006CDC38 /* SlidPick.swift in Sources */,
+				18F5702F1C1359A3002552E6 /* TablesViewController.swift in Sources */,
 				18F570021C135898002552E6 /* ViewController.swift in Sources */,
 				18F570001C135898002552E6 /* AppDelegate.swift in Sources */,
 			);
@@ -481,6 +497,7 @@
 				18F570261C135898002552E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18F570271C135898002552E6 /* Build configuration list for PBXNativeTarget "Swift2TestTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +506,7 @@
 				18F570291C135898002552E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18F5702A1C135898002552E6 /* Build configuration list for PBXNativeTarget "Swift2TestUITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +515,7 @@
 				18F5702C1C135898002552E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

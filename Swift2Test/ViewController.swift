@@ -21,5 +21,14 @@ class ViewController: UIViewController {
     }
 
 
+    @IBOutlet weak var Table: UIButton!
+    
+    
+    @IBAction func TableViewshow(sender: AnyObject) {
+        
+        let vc = TablesViewController(nibName:"TablesViewController", bundle:nil) //change this to your class name
+        let Nvc = UINavigationController(rootViewController: vc)
+        self.presentViewController(Nvc, animated: true, completion: nil)
+    }
 }
 
